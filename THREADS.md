@@ -1,5 +1,5 @@
 
-# Threads
+# Problems on Threads in C Language.
 
 ## Write a C program to create a thread that prints "Hello, World!"?
 ```c
