@@ -437,7 +437,7 @@ int main()
 int main()
 {
         const char *file = "sample.txt";
-        const char *username = "praveenkumar";
+        const char *username = "ramakrsihnap";
         struct passwd *pw= getpwnam(username);
 
         if(pw == NULL)
@@ -489,7 +489,7 @@ int main()
 int main()
 {
 
-        char template[] = "/tmp/mytempfileXXXXXX";
+        char template[] = "/tmp/tempfile";
         int fd=mkstemp(template);
         if(fd == -1 )
         {
@@ -517,7 +517,7 @@ int main()
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        fprintf(stderr, "Usage: %s /home/praveenkumar/mylinux\n", argv[0]);
+        fprintf(stderr, "Usage: %s /primary/home/\n", argv[0]);
         return 1;
     }
 
@@ -546,8 +546,8 @@ int main(int argc, char *argv[]) {
 
 int main()
 {
-        const char *src = "shravya.txt";
-        const char *linkname = "pk.txt";
+        const char *src = "janitha.txt";
+        const char *linkname = "ramakrihsna.txt";
 
         if(link(src,linkname) !=0)
         {
@@ -792,7 +792,7 @@ int main()
 
 int main(int argc,char *argv[])
 {
-        const char *file="praveen.txt";
+        const char *file="file1.txt";
         int length;
 
         if(argc!=2)
